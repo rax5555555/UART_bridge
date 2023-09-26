@@ -15,7 +15,7 @@ void UART_Bridge_init(void)
 {
 	LL_USART_EnableIT_RXNE(USART1);
 	LL_USART_EnableIT_RXNE(USART2);
-
+	
 	uart1_to_uart2_queue = xQueueCreate(1, sizeof(uint8_t));
 	uart2_to_uart1_queue = xQueueCreate(1, sizeof(uint8_t));
 
@@ -54,6 +54,7 @@ void StartUART1_Task(void const * argument)
 		{
 			while (!LL_USART_IsActiveFlag_TXE(USART1)) {}
 			LL_USART_TransmitData8(USART1, data);
+			LL_USART_EnableIT_TXE(USART1);
 		}		
 		//osDelay(1);
 	}
@@ -69,6 +70,7 @@ void StartUART2_Task(void const * argument)
 		{
 			while (!LL_USART_IsActiveFlag_TXE(USART2)) {}
 			LL_USART_TransmitData8(USART2, data);
+			LL_USART_EnableIT_TXE(USART2);
 		}		
 		//osDelay(1);
 	}

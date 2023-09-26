@@ -1,8 +1,8 @@
 uart_bridge\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
-uart_bridge\event_groups.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+uart_bridge\event_groups.o: D:\Program\Keil\ARM\ARMCC\Bin\..\include\stdlib.h
 uart_bridge\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
-uart_bridge\event_groups.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
-uart_bridge\event_groups.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+uart_bridge\event_groups.o: D:\Program\Keil\ARM\ARMCC\Bin\..\include\stddef.h
+uart_bridge\event_groups.o: D:\Program\Keil\ARM\ARMCC\Bin\..\include\stdint.h
 uart_bridge\event_groups.o: ../Core/Inc/FreeRTOSConfig.h
 uart_bridge\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
 uart_bridge\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h

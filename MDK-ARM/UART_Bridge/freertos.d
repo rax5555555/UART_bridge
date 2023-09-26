@@ -1,7 +1,7 @@
 uart_bridge\freertos.o: ../Core/Src/freertos.c
 uart_bridge\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
-uart_bridge\freertos.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
-uart_bridge\freertos.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+uart_bridge\freertos.o: D:\Program\Keil\ARM\ARMCC\Bin\..\include\stddef.h
+uart_bridge\freertos.o: D:\Program\Keil\ARM\ARMCC\Bin\..\include\stdint.h
 uart_bridge\freertos.o: ../Core/Inc/FreeRTOSConfig.h
 uart_bridge\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
 uart_bridge\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h

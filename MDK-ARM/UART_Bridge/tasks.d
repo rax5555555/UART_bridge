@@ -1,9 +1,9 @@
 uart_bridge\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/tasks.c
-uart_bridge\tasks.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
-uart_bridge\tasks.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+uart_bridge\tasks.o: D:\Program\Keil\ARM\ARMCC\Bin\..\include\stdlib.h
+uart_bridge\tasks.o: D:\Program\Keil\ARM\ARMCC\Bin\..\include\string.h
 uart_bridge\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
-uart_bridge\tasks.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
-uart_bridge\tasks.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+uart_bridge\tasks.o: D:\Program\Keil\ARM\ARMCC\Bin\..\include\stddef.h
+uart_bridge\tasks.o: D:\Program\Keil\ARM\ARMCC\Bin\..\include\stdint.h
 uart_bridge\tasks.o: ../Core/Inc/FreeRTOSConfig.h
 uart_bridge\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
 uart_bridge\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h

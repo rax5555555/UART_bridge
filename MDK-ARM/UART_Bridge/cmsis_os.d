@@ -1,9 +1,9 @@
 uart_bridge\cmsis_os.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c
-uart_bridge\cmsis_os.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+uart_bridge\cmsis_os.o: D:\Program\Keil\ARM\ARMCC\Bin\..\include\string.h
 uart_bridge\cmsis_os.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h
 uart_bridge\cmsis_os.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
-uart_bridge\cmsis_os.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
-uart_bridge\cmsis_os.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+uart_bridge\cmsis_os.o: D:\Program\Keil\ARM\ARMCC\Bin\..\include\stddef.h
+uart_bridge\cmsis_os.o: D:\Program\Keil\ARM\ARMCC\Bin\..\include\stdint.h
 uart_bridge\cmsis_os.o: ../Core/Inc/FreeRTOSConfig.h
 uart_bridge\cmsis_os.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
 uart_bridge\cmsis_os.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
